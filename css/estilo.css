@@ -1,0 +1,19 @@
+.column {
+  float: left;
+  width: 50%;
+}
+
+.col-md-5{
+    margin: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columna{
+    display: contents;
+}
